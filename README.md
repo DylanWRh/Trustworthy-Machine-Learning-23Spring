@@ -1,1 +1,3 @@
-# Trustworthy-Machine-Learning-23Spring
+# Trustworthy Machine Learning 23Spring
+
+Code and= report to assignment for the 23Spring course Trustworthy Machine Learningg, Peking University.
