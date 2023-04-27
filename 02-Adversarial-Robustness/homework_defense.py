@@ -233,7 +233,7 @@ def main():
     ######################################################
     # Change model
     # model = ResNet18().to(device)
-    model = wideresnet.WideResNet().to(device)
+    model = wideresnet.WideResNet(depth=28, num_classes=10, widen_factor=5).to(device)
     ######################################################
 
     def count_parameters(model, only_trainable=False):
