@@ -1,0 +1,12 @@
+Backdoor Attack：
+1. 补全data/poison_cifar.py 和 generate_clb_attack.py
+2. 跑不同attack的结果，如badnets： 
+	python train_backdoor.py --poison_type badnets
+3.写report，把log跟report一起打包给我
+
+Backdoor Defense：
+4. 补全generate_mask.py
+5. 生成mask:
+	python generate_mask.py --anp_alpha 0.2
+6. prune网络：
+	python prune_network.py --threshold 0.05
